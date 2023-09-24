@@ -11,7 +11,7 @@ to store configuration.
 
 There's also 2KB of static configuration in a separate flash area at
 ``0x0FE00000`` and 10KB of read-only memory at ``0x0FE10000`` that
-should not be modified.
+should not be modified. The MAC address is fixed in the hardware.
 
 After `reading <hardware.rst>`_ the firmware, save a copy of
 ``flash0.bin`` as ``firmware.bin`` and truncate it to the first 248KB so
