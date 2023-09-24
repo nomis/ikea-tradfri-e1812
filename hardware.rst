@@ -12,6 +12,23 @@ Wire Debug) debugger such as the `Black Magic Probe
 <https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads>`_
 (or equivalents).
 
+Make sure you have the corresponding firmware installed before starting
+any modifications because these are for specific firmware versions.
+
+OTA Upgrades
+------------
+
+You can perform OTA upgrades without draining the battery by connecting
+it to a 3.3V power supply using the battery contacts. This power supply
+should be connected to a UPS or another battery because there's no
+protection against power less at the end of the upgrade when it
+overwrites the flash.
+
+.. figure:: ota-upgrade.jpg
+   :height: 300px
+   :alt: Opened push button with a 3.3V power supply connected instead
+         of the battery
+
 Opening
 -------
 
