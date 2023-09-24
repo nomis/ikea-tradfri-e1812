@@ -38,7 +38,7 @@ need to be there if "double press" isn't used.
 
 To accommodate both modes without this delay requires either being able
 to disable "double press" entirely or transmitting an extra message at
-the start of the 400ms period (so that the Zigbee co-ordinator can
+the start of the 400ms period (so that the Zigbee coordinator can
 choose to react to "every press" or just "single press [that isn't a
 double press]").
 
